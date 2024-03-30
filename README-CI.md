@@ -7,7 +7,7 @@
 - Run the container
 	* docker run -d -p 80:80 my-apache-server
 - View project running
-	* in browser: http://127.0.0.0/
+	* in browser: http://127.0.0.1/
 - Create Docker Repo
 	* Repositories: click create repository -> fill in details
 - Login to DockerHub through CLI
