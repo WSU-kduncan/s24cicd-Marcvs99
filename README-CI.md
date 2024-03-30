@@ -23,5 +23,8 @@
 - Configure gitHub secrets
 	* navigate to github repo -> settings -> secrets -> new repository secret
 	* secrets set: DOCKERHUB_USERNAME, DOCKERHUB_PASSWORD
+- GitHub workflow:
+	* variables used are DOCKERHUB_USERNAME, DOCKERHUBPASSWORD
+	* 
  
  
