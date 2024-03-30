@@ -25,6 +25,7 @@
 	* secrets set: DOCKERHUB_USERNAME, DOCKERHUB_PASSWORD
 - GitHub workflow:
 	* variables used are DOCKERHUB_USERNAME, DOCKERHUBPASSWORD
-	* 
+	* the workflow script logs into DockerHub using secrets defined above, then builds and pushes the image to Dockerhub using https://github.com/docker/build-push-action/tree/v2/
+	* the script runs on git push
  
  
