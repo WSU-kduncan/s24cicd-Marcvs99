@@ -21,4 +21,4 @@ jobs:
 
      steps:
      - name: Push docker image to DockerHub
-       run: docker docker push marcvs99/ceg3140_project4:latest
+       run: docker push marcvs99/ceg3140_project4:latest
