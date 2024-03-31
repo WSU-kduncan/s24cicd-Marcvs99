@@ -1,4 +1,6 @@
-- OVERVIEW: Create a container to host web content locally and use GitHub actions 
+- OVERVIEW: Create a container to host web content locally and use GitHub actions
+
+  ![Continuous Integration Diagram](Images/continuousIntegration.jpg)
 
 - Install Docker
 	* apt install docker.io
