@@ -18,8 +18,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
            images: |
-            marcvs99/ceg3140_project4:latest
-            ghcr.io/marcvs99/ceg3140_project4:latest
+            marcvs99/ceg3140_project4
+            ghcr.io/marcvs99/ceg3140_project4
            tags: |
             type=semver, pattern={{major}}.{{minor}}
             type=semver, pattern={{major}}
