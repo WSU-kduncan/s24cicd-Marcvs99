@@ -21,7 +21,6 @@ jobs:
             marcvs99/ceg3140_project4:latest
             ghcr.io/marcvs99/ceg3140_project4:latest
            tags: |
-            latest
             type=semver, pattern={{major}}.{{minor}}
             type=semver, pattern={{major}}
 
