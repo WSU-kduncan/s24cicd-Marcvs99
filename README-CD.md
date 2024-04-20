@@ -10,4 +10,5 @@
 
 - install docker on Ubuntu: sudo apt-get install docker
 
+- Container Restart Script: located in /home/ubuntu on instance. Stops and removes existing containers, pulls latest from dockerHub, runs container from image.
 
