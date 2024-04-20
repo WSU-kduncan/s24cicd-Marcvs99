@@ -22,3 +22,4 @@
 
 - Configure DockerHub to message listener: go to docker repo > webhooks. add new webhook using url of listener http://54.236.187.103:9000/hooks/redeploy-webhook
 
+![Continuous Deployment Diagram](Images/CD.jpg)
