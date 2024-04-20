@@ -12,3 +12,13 @@
 
 - Container Restart Script: located in /home/ubuntu on instance. Stops and removes existing containers, pulls latest from dockerHub, runs container from image.
 
+- set up webhook on ubuntu instance: sudo apt-get install webhook
+
+- Webhook task file: json file defines tasks to execute when recieves signal. located in home direcory.
+
+- Start webhook: webhook -hooks hooks.json -verbose
+
+- edit /lib/systemd/system/webhook.service to point to /home/ubuntu/hooks.json
+
+- Configure DockerHub to message listener: go to docker repo > webhooks. add new webhook using url of listener http://54.236.187.103:9000/hooks/redeploy-webhook
+
