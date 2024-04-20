@@ -1,0 +1,7 @@
+[
+  {
+    "id": "redeploy-webhook",
+    "execute-command": "pull-image.sh",
+    "command-working-directory": "/usr/local/bin"
+  }
+]
