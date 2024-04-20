@@ -8,5 +8,6 @@
 
 - DockerHub: https://hub.docker.com/repository/docker/marcvs99/ceg3140_project4/general
 
-- 
+- install docker on Ubuntu: sudo apt-get install docker
+
 
