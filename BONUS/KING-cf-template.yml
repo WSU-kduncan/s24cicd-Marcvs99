@@ -261,6 +261,6 @@ Resources:
             #!/bin/bash -xe
             apt-get update && \
             apt-get install -y apache2 && \
-            apt-get install -y git && \
+           # apt-get install -y git && \
             hostnamectl set-hostname serv3 && \
             reboot
