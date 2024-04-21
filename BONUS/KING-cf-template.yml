@@ -175,7 +175,7 @@ Resources:
             apt-get update && \
             apt-get install -y apache2 && \
             # apt-get install -y webhook && \
-           # apt-get install -y git && \
+            # apt-get install -y git && \
             hostnamectl set-hostname serv3 && \
             reboot
   WebServ1Instance:
@@ -206,7 +206,7 @@ Resources:
             apt-get install -y apache2 && \
             apt-get install -y docker && \
             apt-get install -y webhook && \
-           # apt-get install -y git && \
+            # apt-get install -y git && \
             hostnamectl set-hostname serv3 && \
             reboot
   WebServ2Instance:
